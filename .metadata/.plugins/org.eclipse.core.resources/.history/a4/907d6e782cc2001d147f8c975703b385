@@ -1,0 +1,11 @@
+package stringMethods;
+
+public class EqualsIgnoreDemo {
+
+	public static void main(String[] args) {
+		String s="SAthYa";
+		s.equalsIgnoreCase(s);
+		System.out.println(s);
+	}
+
+}

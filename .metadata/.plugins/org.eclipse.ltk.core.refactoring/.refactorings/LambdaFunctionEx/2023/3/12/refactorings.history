@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.lamdaEx.methods.ArraysToString&apos; to &apos;CollectionToArray&apos;&#x0D;&#x0A;- Original project: &apos;LambdaFunctionEx&apos;&#x0D;&#x0A;- Original element: &apos;com.lamdaEx.methods.ArraysToString&apos;&#x0D;&#x0A;- Renamed element: &apos;com.lamdaEx.methods.CollectionToArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArraysToString&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.lamdaEx.methods{ArraysToString.java[ArraysToString" matchStrategy="1" name="CollectionToArray" qualified="false" references="true" similarDeclarations="false" stamp="1679744302027" textual="false" version="1.0"/>
+</session>

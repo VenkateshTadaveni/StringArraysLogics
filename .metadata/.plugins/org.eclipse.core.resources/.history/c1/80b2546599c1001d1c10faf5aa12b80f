@@ -1,0 +1,17 @@
+package com.sathya.linkedlistex;
+
+public class TestClient {
+
+	public static void main(String[] args) {
+		SetterGetExDemo emp1=new SetterGetExDemo();
+		
+		
+		emp1.setEid(123);
+		emp1.setEname("siva");
+		emp1.setEsal(100003.98);
+		System.out.println(emp1.getEid());
+		
+		
+	}
+
+}

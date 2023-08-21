@@ -1,0 +1,11 @@
+package com.sathya.stringlogics;
+
+public class StringEx1 {
+
+	public static void main(String[] args) {
+int x=65;
+char ch= (char)x;
+System.out.println(x);
+	}
+
+}

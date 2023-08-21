@@ -1,0 +1,14 @@
+package com.lamdaEx.methods;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class Drinks {
+
+	public static void main(String[] args) {
+List<Drink>drink=Arrays.asList(new Drink("maaza",1.5,180));
+System.out.println(drink);
+
+}
+}

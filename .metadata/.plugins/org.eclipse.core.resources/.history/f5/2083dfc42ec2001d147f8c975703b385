@@ -1,0 +1,10 @@
+package stringMethods;
+
+public class SubstringIndexDemoEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

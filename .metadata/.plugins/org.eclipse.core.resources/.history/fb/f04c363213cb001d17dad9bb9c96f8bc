@@ -1,0 +1,34 @@
+package com.sathya.logics;
+
+import java.util.Arrays;
+
+public class DuplicateCheck {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 4, 2, 2, 4 };
+		boolean[] isvisited=new boolean[arr.length];
+		
+		for (int i = 0; i <= arr.length - 1; i++) {
+		
+			int result=1;
+			
+			for (int j = i + 1; j <= arr.length - 1; j++) {
+
+				if (arr[i] == arr[j])
+					
+					isvisited[i]=true;
+				result++;
+					
+				
+			}
+			if(isvisited[i]==true) {
+				System.out.println("this is revised array");
+				System.out.println(result);
+
+			}
+		}
+
+		//System.out.println(Arrays.toString(arr));
+		// System.out.println("the duplicated removed array" +Arrays.toString(arr));
+	}
+}

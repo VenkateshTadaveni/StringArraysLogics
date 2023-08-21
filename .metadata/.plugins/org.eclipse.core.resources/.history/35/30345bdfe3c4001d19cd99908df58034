@@ -1,0 +1,12 @@
+ package com.sathya.arraylogics;
+
+import java.util.Arrays;
+
+public class ArraysExample {
+
+	public static void main(String[] args) {
+	 double [] d=new double[]{1,2,3};
+	 //System.out.println([d]);
+	 System.out.println("the value is d[1] "+d[1]);
+	}
+}

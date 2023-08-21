@@ -1,0 +1,26 @@
+package com.sathya.stringlogics;
+
+public class RemoveDuplicates {
+
+	public static void main(String[] args) {
+		String s = "malayalam";
+		String result = "";
+		boolean[] isvisited = new boolean[s.length()];
+		for (int i = 0; i <= s.length() - 1; i++) {
+			if (isvisited[i] == false) {
+				result = result + s.charAt(i);
+			
+				
+				for (int j = 0; j <= s.length() - 1; j++) {
+					if (s.charAt(i) == s.charAt(j))
+						continue;
+					//result = result + s.charAt(j);
+				}
+			}
+
+		}
+		System.out.println("this is removed duplicates text--> " + result);
+
+	}
+}
+

@@ -1,0 +1,10 @@
+package stringMethods;
+
+public class IsEmptyEx {
+
+	public static void main(String[] args) {
+String s="Venkatesh";
+System.out.println(s.isEmpty());
+	}
+
+}

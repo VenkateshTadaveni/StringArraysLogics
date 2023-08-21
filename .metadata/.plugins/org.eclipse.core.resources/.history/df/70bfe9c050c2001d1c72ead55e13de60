@@ -1,0 +1,34 @@
+package com.cursorex.examples;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.ListIterator;
+
+public class Vegitables {
+
+	public static void main(String[] args) {
+		ArrayList<String> veg = new ArrayList<String>();
+		veg.add("dondakaya");
+		veg.add("bendakaya");
+		veg.add("chikudu");
+		veg.add("kakarakaya");
+
+		ListIterator<String> vegiter = veg.listIterator();
+		while (vegiter.hasNext()) {
+
+			String s = vegiter.next();
+			vegiter.remove();
+
+			if (s.equals("dondakaya")) {
+				vegiter.remove();
+			}
+			if (s.equals("chikudu")) {
+				vegiter.set("sora");
+			}
+		}
+		
+		System.out.println(veg);
+	}
+
+}

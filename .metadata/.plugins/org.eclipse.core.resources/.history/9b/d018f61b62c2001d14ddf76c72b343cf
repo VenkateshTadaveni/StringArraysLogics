@@ -1,0 +1,17 @@
+package com.cursorex.examples;
+
+import java.util.LinkedList;
+
+public class ListItrCarEx {
+
+	public static void main(String[] args) {
+		LinkedList<CarDemo> car=new LinkedList<CarDemo>();
+		car.add(new CarDemo("BMW", 2266, 48560000.00));
+		car.add(new CarDemo("Audi",0000,34098009.12));
+		car.add(new CarDemo("RolceRoyes",5678, 65987000.00));
+		
+		System.out.println(car);
+		
+	}
+
+}

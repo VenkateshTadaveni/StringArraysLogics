@@ -1,0 +1,10 @@
+package com.sathya.stringlogics;
+
+public class AnagramEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

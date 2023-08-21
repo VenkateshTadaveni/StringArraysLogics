@@ -1,0 +1,21 @@
+package com.sathya.stringExamples;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+String s= new String("Santhosh");
+String s1=new String("Santhosh");
+String s2="Santhosh";
+String s3="Santhosh";
+System.out.println(s==s1);
+System.out.println(s==s2);
+System.out.println(s1==s2);
+System.out.println(s2==s3);
+System.out.println(s.equals(s1));
+System.out.println(s.equals(s2));
+System.out.println(s1.equals(s2));
+System.out.println(s2.equals(s3));
+
+	}
+
+}

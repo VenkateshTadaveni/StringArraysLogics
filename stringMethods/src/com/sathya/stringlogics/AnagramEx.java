@@ -1,0 +1,58 @@
+package com.sathya.stringlogics;
+
+import java.util.Arrays;
+
+public class AnagramEx {
+
+	public static void main(String[] args) {
+		String s = "silent";
+		String s1 = "linten";
+		char[] ch1 = s.toCharArray();
+		char[] ch2 = s.toCharArray();
+		if (s.length() == s1.length()) {
+			
+			for (int i = 0; i <=5; i++) {
+				char temp=' ';
+
+				for (int j = i + 1; j <= ch1.length-1; j++) {
+					if (ch1[i] > ch1[j]) {
+						 temp = ch1[i];
+						ch1[i] = ch1[j];
+						ch1[j] = temp;
+
+					}
+					
+					if (ch2[i] > ch2[j]) {
+						 temp = ch2[i];
+						ch2[i] = ch2[j];
+						ch2[j] = temp;
+
+					}
+				}
+			
+			}
+		
+			int anagram=1;
+			for(int i=0;i<=ch2.length-1;i++) {
+				if(ch1[i]==ch2[i]) {
+					anagram=1;
+
+					
+					
+				}
+				
+			}
+			if(anagram==1) {
+				System.out.println("both are equal");}
+				else {
+					System.out.println("both are not equal");
+			}
+
+		}
+		
+		
+System.out.println(Arrays.toString(ch1));	
+System.out.println(Arrays.toString(ch2));
+	}
+
+}

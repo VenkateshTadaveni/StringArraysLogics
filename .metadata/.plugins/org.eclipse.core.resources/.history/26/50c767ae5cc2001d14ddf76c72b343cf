@@ -1,0 +1,28 @@
+package com.cursorex.examples;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class ListIterable {
+
+	public static void main(String[] args) {
+		ArrayList<Integer> val=new ArrayList<Integer>();
+		val.add(100);
+		val.add(13);
+		val.add(17);
+		val.add(123);
+		val.add(647);
+		val.add(1201);
+		
+		System.out.println(val);
+		
+		ListIterator<Integer> num=val.listIterator();
+		 num.add(1000);
+		 while(num.hasNext()) {
+			 
+			 
+		 }
+		
+	}
+
+}

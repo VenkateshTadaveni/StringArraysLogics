@@ -1,0 +1,11 @@
+package com.sathya.stringExamples;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+String s="santhosh";
+String S=s.concat("Chintu");
+System.out.println(S);
+	}
+
+}

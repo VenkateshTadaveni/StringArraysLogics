@@ -1,0 +1,14 @@
+ package com.sathya.arraylogics;
+
+import java.util.Arrays;
+
+public class ArraysExample {
+
+	public static void main(String[] args) {
+		
+		
+		String lion[]=new String[2];
+		System.out.println();
+		
+	}
+}
